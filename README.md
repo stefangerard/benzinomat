@@ -6,7 +6,7 @@ It's using a Google API (the key has to be replaced in the manifest) and the Goo
 The App is also using the tankerkoenig api (API-Key hast to be replaced as well)
 
 ## Google Play Store
-[Get it Benzinomat in the Play Store](https://play.google.com/store/apps/details?id=com.stefangerard.benzinomat)
+[Get Benzinomat in the Play Store](https://play.google.com/store/apps/details?id=com.stefangerard.benzinomat)
 
 ##Tankerkoenig API
 [https://creativecommons.tankerkoenig.de/](https://creativecommons.tankerkoenig.de/)
