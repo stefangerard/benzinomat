@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Benzinomat</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Options Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="checkable">Clickable</string>
+    <string name="mapString">Map</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_loading_screen">LoadingScreenActivity</string>
+    <string name="textViewSearchRadius">Search Radius:</string>
+
+    <string-array name="searchRadiusValues">
+        <item>1 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>15 km</item>
+        <item>20 km</item>
+        <item>25 km</item>
+    </string-array>
+
+    <string name="textViewFuelType">Fuel type:</string>
+
+    <string-array name="fuelTypes">
+        <item>Diesel</item>
+        <item>Super E10</item>
+        <item>Super E5</item>
+    </string-array>
+
+    <string name="textViewResultCount"># of Results:</string>
+
+    <string-array name="count">
+        <item>max. 10 Results</item>
+        <item>max. 25 Results</item>
+        <item>max. 50 Results</item>
+        <item>All Results</item>
+    </string-array>
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="mapActionBarIsShownString">hide map</string>
+    <string name="mapActionBarIsHiddenString">show map</string>
+
+    <!-- MainActiity -->
+    <string name="price">Prize</string>
+    <string name="distance">Distance</string>
+    <string name="mainUnderlayerNoConnection">To reload swipe with your finger down.</string>
+    <string name="mainUnderlayerNotFound">We couldn\'t find any results with the current search settings.</string>
+
+    <!-- SettingsActivity -->
+    <string name="searchMethod">Search Method:</string>
+    <string name="currentLocation">Current Location</string>
+    <string name="otherLocation">Zip/Place</string>
+    <string name="settingsAllResults">All Results</string>
+    <string name="settingsMax">max.</string>
+    <string name="settingsResults">Results</string>
+    <string name="settingsSearch"></string>
+    <string name="settingsAlert">Please type in a zip/place or choose \'current location\'.</string>
+
+    <!-- Details View -->
+    <string name="openingHoursHeadline">Opening Hours</string>
+    <string name="diesel">Diesel</string>
+    <string name="e10">E10</string>
+    <string name="e5">E5</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="startDirection">Start Route</string>
+    <string name="title_activity_statistic">Statistic</string>
+    <string name="addFuelStop">Add Fuelstop</string>
+    <string name="clock">o\'clock</string>
+    <string name="fuelType">Fuel type</string>
+    <string name="fuelTypeUsed">Which fueltype did you fueled?</string>
+
+    <!-- Statistic -->
+    <string name="addNewFuelStop">Add Fuelstop</string>
+    <string name="statisticAvgConsumption">Average Consumption</string>
+    <string name="action_statistic">Statistic</string>
+    <string name="clearStatistic">Reset Statistic</string>
+    <string name="currentMonthCosts">Current Month</string>
+    <string name="lastMonthCosts">Last Month</string>
+    <string name="title_activity_fuel_stop">FuelStop</string>
+    <string name="statisticTooLessData">too less data</string>
+    <string name="statisticDate">Date</string>
+    <string name="statisticKilometer">Kilometer</string>
+    <string name="statisticPrice">Prize</string>
+    <string name="statisticFuelQuantity">Amount of Fuel</string>
+    <string name="statisticConsumption">Consumption</string>
+    <string name="statisticAlert">Do you really want to reset the statistic?</string>
+    <string name="statisticAlertResetting">Reset</string>
+    <string name="statisticAlertCancel">Cancel</string>
+
+    <!-- FuelStop -->
+    <string name="fuelStop">Fuelstop</string>
+    <string name="kilometers">Mileage</string>
+    <string name="kilometerHint">22345 km</string>
+    <string name="pricePerLiter">Price per Liter</string>
+    <string name="priceHint">1,229€</string>
+    <string name="fueledQuantity">Fueled Amount in Liter</string>
+    <string name="fuelQuantityHint">55l</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="error">Error</string>
+    <string name="fuelStopAlertKilometer">Only integer kilometers are indicated.</string>
+    <string name="fuelStopAlertPrice">The price input is incorrect.</string>
+    <string name="fuelStopAlertQuantity">The amount information is incorrect.</string>
+    <string name="fuelStopAlertLessKilometer">The mileage is less than the last refueling.</string>
+    <string name="fuelStopAlertFillAllFields">Please fill out all fields.</string>
+    <string name="imageButtonBackButtonContentDescription">ActionBar Back Button</string>
+
+    <!-- API -->
+    <string name="apiInternetConnection">Internet Connection</string>
+    <string name="apiAlertNoInternet">There is no Internet connection available. Do you want to go to the settings?</string>
+    
+    <!-- GPSTracker -->
+    <string name="gpsLocationService">Location Service</string>
+	<string name="gpsAlertNoGPS">The location service is turned off. Do you want to go to the device settings? Alternatively, you can define a location in the app settings.</string>
+	<string name="gpsAlertSettings">Device Settings</string>
+    
+</resources>

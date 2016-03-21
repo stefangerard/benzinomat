@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stefangerard.benzinomat.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+	    android:id="@+id/checkable_menu"
+	    android:checkable="true"
+	    android:orderInCategory="100"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/checkable" />
+    <!-- 
+    <item
+	    android:id="@+id/mapActionBarItem"
+	    android:checkable="true"
+	    android:orderInCategory="100"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/mapString" />
+     -->
+    
+    <item
+        android:id="@+id/action_statistic"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_statistic"/>
+
+</menu>

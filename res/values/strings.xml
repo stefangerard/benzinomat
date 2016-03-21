@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Benzinomat</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Options Menu -->
+    <string name="action_settings">Einstellungen</string>
+    <string name="checkable">Klickbar</string>
+    <string name="mapString">Karte</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_loading_screen">LoadingScreenActivity</string>
+    <string name="textViewSearchRadius">Suchradius:</string>
+
+    <string-array name="searchRadiusValues">
+        <item>1 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>15 km</item>
+        <item>20 km</item>
+        <item>25 km</item>
+    </string-array>
+
+    <string name="textViewFuelType">Spritsorte:</string>
+
+    <string-array name="fuelTypes">
+        <item>Diesel</item>
+        <item>Super E10</item>
+        <item>Super E5</item>
+    </string-array>
+
+    <string name="textViewResultCount">Anzahl Ergebnisse:</string>
+
+    <string-array name="count">
+        <item>max. 10 Treffer</item>
+        <item>max. 25 Treffer</item>
+        <item>max. 50 Treffer</item>
+        <item>Alle Treffer</item>
+    </string-array>
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="mapActionBarIsShownString">Karte aublenden</string>
+    <string name="mapActionBarIsHiddenString">Karte einblenden</string>
+
+    <!-- MainActiity -->
+    <string name="price">Preis</string>
+    <string name="distance">Distanz</string>
+    <string name="mainUnderlayerNoConnection">Zum neu laden mit dem Finger nach unten über den Bildschirm swipen.</string>
+    <string name="mainUnderlayerNotFound">Mit den eingestellten Suchkriterien konnten keine Tankstellen gefunden werden.</string>
+
+    <!-- SettingsActivity -->
+    <string name="searchMethod">Suchmethode:</string>
+    <string name="currentLocation">aktueller Standort</string>
+    <string name="otherLocation">PLZ/Ort</string>
+    <string name="settingsAllResults">Alle Treffer</string>
+    <string name="settingsMax">max.</string>
+    <string name="settingsResults">Treffer</string>
+    <string name="settingsSearch"></string>
+    <string name="settingsAlert">Bitte geben Sie eine Postleizahl/Ort ein oder wählen sie \'aktuellen Standort\' aus.</string>
+
+    <!-- Details View -->
+    <string name="openingHoursHeadline">Öffnungszeiten</string>
+    <string name="diesel">Diesel</string>
+    <string name="e10">E10</string>
+    <string name="e5">E5</string>
+    <string name="open">Geöffnet</string>
+    <string name="closed">Geshlossen</string>
+    <string name="startDirection">Route starten</string>
+    <string name="title_activity_statistic">Statistik</string>
+    <string name="addFuelStop">Tankstop hinzufügen</string>
+    <string name="clock">Uhr</string>
+    <string name="fuelType">Spritsorte</string>
+    <string name="fuelTypeUsed">Welche Spritsorte haben Sie getankt?</string>
+
+    <!-- Statistic -->
+    <string name="addNewFuelStop">Neuen Tankstop hinzufügen</string>
+    <string name="statisticAvgConsumption">Durschnittsverbrauch</string>
+    <string name="action_statistic">Statistik</string>
+    <string name="clearStatistic">Statistik zurücksetzen</string>
+    <string name="currentMonthCosts">Aktueller Monat</string>
+    <string name="lastMonthCosts">Letzter Monat</string>
+    <string name="title_activity_fuel_stop">FuelStop</string>
+    <string name="statisticTooLessData">zu wenig Daten</string>
+    <string name="statisticDate">Datum</string>
+    <string name="statisticKilometer">Kilometer</string>
+    <string name="statisticPrice">Preis</string>
+    <string name="statisticFuelQuantity">Spritmenge</string>
+    <string name="statisticConsumption">Verbrauch</string>
+    <string name="statisticAlert">Wollen Sie wirklich die Statistik zurücksetzen?</string>
+    <string name="statisticAlertResetting">Zurücksetzen</string>
+    <string name="statisticAlertCancel">Abbrechen</string>
+
+    <!-- FuelStop -->
+    <string name="fuelStop">Tankstop</string>
+    <string name="kilometers">Kilometerstand</string>
+    <string name="kilometerHint">22345 km</string>
+    <string name="pricePerLiter">Preis pro Liter</string>
+    <string name="priceHint">1,229€</string>
+    <string name="fueledQuantity">Getankte Menge in Liter</string>
+    <string name="fuelQuantityHint">55l</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="error">Fehler</string>
+    <string name="fuelStopAlertKilometer">Es dürfen nur ganzzahlige Kilometer eingegeben werden.</string>
+    <string name="fuelStopAlertPrice">Die Preiseingabe ist fehlerhaft.</string>
+    <string name="fuelStopAlertQuantity">Die Mengenangabe ist fehlerhaft.</string>
+    <string name="fuelStopAlertLessKilometer">Der Kilometerstand ist geringer als beim letzten Tankstop.</string>
+    <string name="fuelStopAlertFillAllFields">Bitte füllen Sie alle Felder aus.</string>
+    <string name="imageButtonBackButtonContentDescription">ActionBar Zurück Button</string>
+
+    <!-- API -->
+    <string name="apiInternetConnection">Internetverbindung</string>
+    <string name="apiAlertNoInternet">Es ist leider keine Internetverbindung vorhanden. Möchten Sie zu den Einstellungen gehen?</string>
+
+    <!-- GPSTracker -->
+    <string name="gpsLocationService">Ortungsdienst</string>
+    <string name="gpsAlertNoGPS">Der Ortungsdienst ist ausgeschaltet. Möchten Sie zu den Geräte-Einstellungen gehen? Alternativ können Sie in den App-Einstellungen einen Standort hinterlegen.</string>
+    <string name="gpsAlertSettings">Geräte-Einstellungen</string>
+    <string name="title_activity_contact">ContactActivity</string>
+
+    <!-- Imprint -->
+    <string name="imprint">
+		<![CDATA[
+        		<h1>Impressum</h1>
+        		<p>Angaben gemäß § 5 TMG</p>
+        		<p>Stefan Gerard<br>
+        		Twitter: <a href=\'http://www.twitter.com/stefocdp\'>@stefocdp</p>
+				<p><strong>Kontakt:</strong><br>
+				Webseite: <a href=\'http://www.benzinomat.de\'>www.benzinomat.de</a><br>
+				E-Mail: <a href=\'mailto:info@benzinomat.de\'>info@benzinomat.de</a><br>
+				Twitter: <a href=\'http://www.twitter.com/benzinomat\'>@benzinomat</a><br></p>
+				<p align=\"justify\"><strong>Haftungsausschluss: </strong><br><br>
+				<strong>Haftung für Inhalte</strong><br><br>
+				Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br><br>
+				<strong>Haftung für Links</strong><br><br>
+				Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br><br>
+				<strong>Urheberrecht</strong><br><br>
+				Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br><br>
+				<strong>Datenschutz</strong><br><br>
+				Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. <br>
+				Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. <br>
+				Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.<br>
+				</p>
+				<p>Impressum erstellt durch <a href=\'http://www.impressum-generator.de\'>impressum-generator.de</a></p>
+				<br><br>
+				<h1>API</h1>
+				<p>Die Echtzeit-Spritpreisdaten werden über die JSON-API von dem Verbraucherinformationsdienst <a href=\'https://creativecommons.tankerkoenig.de/\'>Tankerkönig.de</a> bezogen. Diese API unterliegt der <a href=\'https://creativecommons.org/licenses/by/4.0/deed.de\'>Creative-Commons-Lizenz (CC BY 4.0)</a>.</p>
+        ]]>
+    </string>
+
+</resources>
